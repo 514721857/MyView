@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.myview.ui.CircleBarActivity;
+import com.example.myview.ui.ExpandMenuActivity;
 import com.example.myview.ui.MyView1Activity;
 
 import butterknife.BindView;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(MainActivity.this, CircleBarActivity.class);
                 break;
             case R.id.myview3:
-
+                startActivity(MainActivity.this, ExpandMenuActivity.class);
                 break;
 
         }
